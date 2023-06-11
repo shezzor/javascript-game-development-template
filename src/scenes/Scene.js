@@ -1,0 +1,6 @@
+/**
+ * @abstract
+ */
+export class Scene {
+
+}
