@@ -4,7 +4,7 @@ import { Scene } from './Scene.js';
 import { Logo } from '../entities/Logo.js';
 
 export class TestScene extends Scene {
-	//music = document.getElementById('bgm');
+	music = document.getElementById('bgm');
 	logo = document.getElementById('logo');
 	lightness = 22;
 
@@ -13,7 +13,7 @@ export class TestScene extends Scene {
 
 		this.logo = new Logo({ x: SCREEN_WIDTH / 2, y: SCREEN_HEIGHT / 2 }, this.handleBorderFlash);
 
-		//playSound(this.music);
+		playSound(this.music);
 	}
 
 	handleBorderFlash = () => {

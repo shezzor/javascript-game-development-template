@@ -1,3 +1,8 @@
+/**
+ * Play a HTMLAudioElement
+ * @param {HTMLAudioElement} sound 
+ * @param {*} options 
+ */
 export function playSound(sound, { volume = 1, loop } = {}) {
 	sound.volume = volume;
 	if (loop) sound.loop = loop;
@@ -9,6 +14,10 @@ export function playSound(sound, { volume = 1, loop } = {}) {
 	}
 }
 
+/**
+ * Stop a playing HTMLAudioElement sound
+ * @param {HTMLAudioElement} sound 
+ */
 export function stopSound(sound) {
 	sound.pause();
 	sound.currentTime = 0;
