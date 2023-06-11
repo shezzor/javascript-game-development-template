@@ -1,8 +1,8 @@
 # shezzor's JavaScript Game Development Template
 
+Small template to create web/browser based games using the HTML canvas element.
+
 # Credits
 
-Code - Anthony Sherratt
-Music - Strobotone [https://freemusicarchive.org/music/Strobotone]
-Large font - Old Amiga demo 🤷‍♂️
-8x8 mono font - Teodor Bjerrang [https://www.teodor.no]
+- Code - Anthony Sherratt
+- Music - Space_Cat [https://pixabay.com/users/space_cat-7706897/]

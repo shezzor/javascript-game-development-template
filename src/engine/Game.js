@@ -3,6 +3,7 @@ import { getContext } from './context.js';
 import { Camera } from './Camera.js';
 
 /**
+ * Base game class that sets up and configures "all the things" for your game project
  * @abstract
  */
 export class Game {

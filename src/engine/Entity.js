@@ -1,4 +1,5 @@
 /**
+ * Base class for any Entity used within the game
  * @abstract
  */
 export class Entity {
