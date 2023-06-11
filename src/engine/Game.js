@@ -23,10 +23,8 @@ export class Game {
 	frame = (time) => {
 		window.requestAnimationFrame(this.frame);
 
-		this.frameTime = {
-			secondsPassed: (time - this.frameTime.previous) / 1000,
-			previous: time,
-		};
+		this.frameTime.secondsPassed = (time - this.frameTime.previous) / 1000;
+		this.frameTime.previous = time;
 
 		pollGamepads();
 		this.scene.update(this.frameTime, this.context, this.camera);
