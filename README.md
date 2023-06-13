@@ -1,4 +1,4 @@
-# shezzor's JavaScript Game Development Template
+# 🎮 shezzor's JavaScript Game Development Template
 
 A small template to create web/browser based games using the HTML canvas element.
 
@@ -21,7 +21,7 @@ A framework. You'll still need to understand how the canvas element works. Which
 can only be a good thing. You'll be learning the web and its features rather than someone
 elses interpreation of it.
 
-## Getting started
+## 🔰 Getting started
 
 Simply clone the repo and open the resulting code in your favourite editor.
 
@@ -36,7 +36,7 @@ This repo also includes npm dependencies and a set of types to help with TypeScr
 development but this is not required or configured by default. Although, I'll be looking
 how I can automatically configure this in the future.
 
-# Example code
+## 💥 Example code
 
 Included is a small example of how to move an image around the screen using the code
 supplied.
@@ -52,13 +52,13 @@ and drawing routines for each "frame" of the game.
 
 `Logo.js` = An example of an "entity" using the `Entity` class.
 
-## Example Credits
+## 👨‍💻 Example Credits
 
 - Code - Anthony Sherratt
 - Graphics - Originally Robin Levy but remastered by Anthony Sherratt
 - Music - Space_Cat [https://pixabay.com/users/space_cat-7706897/]
 
-## Next steps
+## 📰 Next steps
 
 To keep improving what is included here (including this documention!).
 
