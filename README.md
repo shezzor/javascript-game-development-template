@@ -17,9 +17,9 @@ javascript game devlopment. It includes...
 
 ## ❌ What this isn't
 
-A framework. You'll still need to understand how the canvas element works. Which honestly
-can only be a good thing. You'll be learning the web and its features rather than someone
-elses interpreation of it.
+A framework. You'll still need to understand how the canvas element and web works. Which
+honestly can only be a good thing. You'll be learning the browser and its features rather
+than someone elses interpreation of it.
 
 ## 🔰 Getting started
 

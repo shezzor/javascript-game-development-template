@@ -29,12 +29,12 @@ export function getContext(parentSelector = 'body', width = 256, height = 256) {
 
 /**
  * Draw a section from an image
- * @param {CanvasRenderingContext2D} context 
- * @param {HTMLImageElement} image 
- * @param {number[]} dimensions 
- * @param {number} x 
- * @param {number} y 
- * @param {number} direction 
+ * @param {CanvasRenderingContext2D} context
+ * @param {HTMLImageElement} image
+ * @param {number[]} dimensions
+ * @param {number} x
+ * @param {number} y
+ * @param {number} direction
  */
 export function drawFrame(
 	context,
@@ -55,12 +55,12 @@ export function drawFrame(
 
 /**
  * Draw a section from an image using an origin point
- * @param {CanvasRenderingContext2D} context 
- * @param {HTMLImageElement} image 
- * @param {*} frame 
- * @param {number} x 
- * @param {number} y 
- * @param {number} direction 
+ * @param {CanvasRenderingContext2D} context
+ * @param {HTMLImageElement} image
+ * @param {number[]} frame
+ * @param {number} x
+ * @param {number} y
+ * @param {number} direction
  */
 export function drawFrameOrigin(
 	context,
