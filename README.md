@@ -9,10 +9,10 @@ javascript game devlopment. It includes...
 
 - A standard folder scaffolding and code structure.
 - A canvas element and its context already configured and set up for you.
-- The main game loop
+- The main game loop with a general time object.
 - Initial control handlers for both keyboard and gamepad.
 - A small set of handy utility functions to help with some of the basics.
-- A set of TypeScript types for a number of
+- A set of TypeScript types for a number of the objects i've preconfigured.
 - A quick example on how to use the code.
 
 ## ❌ What this isn't

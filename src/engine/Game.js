@@ -29,7 +29,7 @@ export class Game {
 		pollGamepads();
 		this.scene.update(this.frameTime, this.context, this.camera);
 		this.scene.draw(this.context, this.camera);
-	}
+	};
 
 	start() {
 		registerKeyEvents();

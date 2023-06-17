@@ -18,9 +18,9 @@ export class TestScene extends Scene {
 
 	handleBorderFlash = () => {
 		this.lightness = 100;
-	}
+	};
 
-	update(time, context, camera) {
+	update(time, _, camera) {
 		camera.update(time);
 		this.logo.update(time);
 
@@ -41,10 +41,10 @@ export class TestScene extends Scene {
 		context.fillStyle = 'white';
 
 		context.font = 'normal 30px Nunito Sans';
-		context.fillText(`shezzor's Dev Corner`, SCREEN_WIDTH / 2, -15 + SCREEN_HEIGHT / 2);
+		context.fillText('shezzor\'s Dev Corner', SCREEN_WIDTH / 2, -15 + SCREEN_HEIGHT / 2);
 
 		context.font = 'normal 18px Nunito Sans';
-		context.fillText(`Game Development Template`, SCREEN_WIDTH / 2, 15 + SCREEN_HEIGHT / 2);
+		context.fillText('Game Development Template', SCREEN_WIDTH / 2, 15 + SCREEN_HEIGHT / 2);
 	}
 
 	draw(context) {

@@ -33,6 +33,6 @@ export class Logo extends Entity {
 	}
 
 	draw(context) {
-		context.drawImage(logo, Math.floor(this.position.x), this.position.y);
+		context.drawImage(this.image, Math.floor(this.position.x), this.position.y);
 	}
 }
