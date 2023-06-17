@@ -1,5 +1,5 @@
-import { SCREEN_HEIGHT, SCREEN_WIDTH } from './constants/game.js';
-import { TestScene } from './scenes/TestScene.js';
+import { SCREEN_HEIGHT, SCREEN_WIDTH } from './game/constants/game.js';
+import { TestScene } from './game/scenes/TestScene.js';
 import { Game } from './engine/Game.js';
 
 export class TemplateDemo extends Game {

@@ -1,5 +1,5 @@
 import { FPS, SCREEN_HEIGHT, SCREEN_WIDTH } from '../constants/game.js';
-import { Entity } from '../engine/Entity.js';
+import { Entity } from '../../engine/Entity.js';
 
 const VELOCITY = FPS * 2;
 

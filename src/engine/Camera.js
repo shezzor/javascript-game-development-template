@@ -1,4 +1,4 @@
-import { SCREEN_WIDTH, SCREEN_HEIGHT } from '../constants/game.js';
+import { SCREEN_WIDTH, SCREEN_HEIGHT } from '../game/constants/game.js';
 
 export class Camera {
 	constructor(x, y, width = SCREEN_WIDTH, height = SCREEN_HEIGHT) {
