@@ -8,7 +8,7 @@ export function getContext(parentSelector = 'body', width = 256, height = 256) {
 	const parentElement = document.querySelector(parentSelector);
 
 	if (!parentElement) {
-		throw new Error('Unable to parent element');
+		throw new Error('Unable to find parent element');
 	}
 
 	const canvas = document.createElement('canvas');
@@ -28,13 +28,13 @@ export function getContext(parentSelector = 'body', width = 256, height = 256) {
 }
 
 /**
- * Draw a section from an image
- * @param {CanvasRenderingContext2D} context
- * @param {HTMLImageElement} image
- * @param {number[]} dimensions
- * @param {number} x
- * @param {number} y
- * @param {number} direction
+ * Draw a section of an image
+ * @param {CanvasRenderingContext2D} context destination context
+ * @param {HTMLImageElement} image source image data
+ * @param {number[]} dimensions dimensions array of the section
+ * @param {number} x x coord position
+ * @param {number} y y coord potition
+ * @param {number} direction used for horizontal flipping
  */
 export function drawFrame(
 	context,
@@ -54,13 +54,13 @@ export function drawFrame(
 }
 
 /**
- * Draw a section from an image using an origin point
- * @param {CanvasRenderingContext2D} context
- * @param {HTMLImageElement} image
- * @param {number[]} frame
- * @param {number} x
- * @param {number} y
- * @param {number} direction
+ * Draw a section of an image using an origin point
+ * @param {CanvasRenderingContext2D} context destination context
+ * @param {HTMLImageElement} image source image data
+ * @param {number[]} frame the frame data array (includes both dimensions and origin point)
+ * @param {number} x x coord position
+ * @param {number} y y coord potition
+ * @param {number} direction used for horizontal flipping
  */
 export function drawFrameOrigin(
 	context,

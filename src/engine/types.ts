@@ -1,9 +1,10 @@
-import { Control, GamepadThumbstick } from '../constants/control.js';
+import { GamepadThumbstick } from './constants/control.js';
+import { Control } from '../game/constants/controls.js';
 import { Camera } from '../engine/Camera.js';
 
 export type ValueOf<T> = T[keyof T];
 
-export type ControlConfig = {
+export type ControlConfig<T> = {
 	gamePad: Partial<(Record<ValueOf<typeof Control>, number> | Record<ValueOf<typeof GamepadThumbstick>, number>)>;
 	keyboard: Partial<Record<ValueOf<typeof Control>, string>>;
 }
