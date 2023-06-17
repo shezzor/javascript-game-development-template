@@ -1,6 +1,6 @@
+import { Scene } from '../../engine/Scene.js';
 import { playSound } from '../../engine/soundHandler.js';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../constants/game.js';
-import { Scene } from './Scene.js';
 import { Logo } from '../entities/Logo.js';
 
 export class TestScene extends Scene {

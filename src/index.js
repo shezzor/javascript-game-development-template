@@ -1,5 +1,5 @@
-import { TemplateDemo } from './TemplateDemo.js';
+import { TemplateExample } from './game/TemplateExample.js';
 
 window.addEventListener('load', () => {
-	new TemplateDemo().start();
+	new TemplateExample().start();
 });
