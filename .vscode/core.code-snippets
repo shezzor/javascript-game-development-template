@@ -1,0 +1,60 @@
+{
+	"Create a game class": {
+		"prefix": "sdcgc",
+		"body": [
+			"import { Game } from 'engine/Game.js';",
+			"",
+			"export class ${1:Unnamed}Game extends Game {",
+			"  constructor() {",
+			"    super('body', ${2:SCREEN_WIDTH}, ${3:SCREEN_HEIGHT});",
+			"  }",
+			"}",
+			""
+		],
+		"description": "Create your main game class"
+	},
+	"Create an entity class": {
+		"prefix": "sdcec",
+		"body": [
+			"import { Entity } from 'engine/Entity.js';",
+			"",
+			"export class ${1:Unnamed} extends Entity {",
+			"  constructor(position) {",
+			"    super(position);",
+			"  }",
+			"",
+			"  update(time, context, camera) {",
+			"    // Add your main update calls here",
+			"  }",
+			"",
+			"  draw(context, camera) {",
+			"    // Add your main draw calls here",
+			"   }",
+			"}",
+			""
+		],
+		"description": "Create an entity class"
+	},
+	"Create a scene class": {
+		"prefix": "sdcsc",
+		"body": [
+			"import { Scene } from 'engine/Scene.js';",
+			"",
+			"export class ${1:Unnamed} extends Scene {",
+			"  constructor() {",
+			"    super();",
+			"  }",
+			"",
+			"  update(time, context, camera) {",
+			"    // Add your main update calls here",
+			"  }",
+			"",
+			"  draw(context, camera) {",
+			"    // Add your main draw calls here",
+			"   }",
+			"}",
+			""
+		],
+		"description": "Create an scene class"
+	}
+}

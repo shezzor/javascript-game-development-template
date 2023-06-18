@@ -1,5 +1,5 @@
-import { GamepadThumbstick } from '../../engine/constants/control.js';
-import { Control } from '../constants/controls.js';
+import { GamepadThumbstick } from 'engine/constants/control.js';
+import { Control } from 'game/constants/controls.js';
 
 /**
  * Use this object to define the configured inputs for the available controls

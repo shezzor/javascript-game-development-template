@@ -1,7 +1,7 @@
-import { Scene } from '../../engine/Scene.js';
-import { playSound } from '../../engine/soundHandler.js';
-import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../constants/game.js';
-import { Logo } from '../entities/Logo.js';
+import { Scene } from 'engine/Scene.js';
+import { playSound } from 'engine/soundHandler.js';
+import { SCREEN_HEIGHT, SCREEN_WIDTH } from 'game/constants/game.js';
+import { Logo } from 'game/entities/Logo.js';
 
 export class TestScene extends Scene {
 	music = document.getElementById('bgm');
@@ -19,13 +19,6 @@ export class TestScene extends Scene {
 	handleBorderFlash = () => {
 		this.lightness = 100;
 	};
-
-	update(time, _, camera) {
-		camera.update(time);
-		this.logo.update(time);
-
-		if (this.lightness > 22) this.lightness -= 200 * time.secondsPassed;
-	}
 
 	drawBorder(context) {
 		context.lineWidth = 4;
@@ -45,6 +38,13 @@ export class TestScene extends Scene {
 
 		context.font = 'normal 18px Nunito Sans';
 		context.fillText('Game Development Template', SCREEN_WIDTH / 2, 15 + SCREEN_HEIGHT / 2);
+	}
+
+	update(time, _, camera) {
+		camera.update(time);
+		this.logo.update(time);
+
+		if (this.lightness > 22) this.lightness -= 200 * time.secondsPassed;
 	}
 
 	draw(context) {

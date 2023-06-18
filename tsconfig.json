@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"lib": ["DOM", "ESNext"],
+		"allowJs": true,
+		"incremental": false,
+		"sourceMap": true,
+		"outDir": "./build",
+		"paths": {
+			"engine": ["./engine"],
+			"game": ["./game"]
+		}
+	}
+}

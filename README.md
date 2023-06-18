@@ -21,6 +21,12 @@ A framework. You'll still need to understand how the canvas element and web work
 honestly can only be a good thing. You'll be learning the browser and its features rather
 than someone elses interpreation of it.
 
+## Whats required
+
+- A recent browser (say within the last 6 months).
+  - _NOTE: This repo uses native ES6 modules and import maps._
+- Some understanding of latest JavaScript and/or TypeScript development practices.
+
 ## 🔰 Getting started
 
 Simply clone the repo and open the resulting code in your favourite editor.
