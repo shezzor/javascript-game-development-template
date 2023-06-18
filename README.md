@@ -1,11 +1,15 @@
 # 🎮 shezzor's JavaScript Game Development Template
 
-A small template to create web/browser based games using the HTML canvas element.
+A small template to jump start your web/browser based game development using the
+HTML canvas element.
 
 ## ✔️ What this is
 
-A boilerplate code template along with a few utility functions to jump start your
-javascript game devlopment. It includes...
+A code template designed to be used as a starting point your javascript game
+development which handles the initial boilerplate code. It also includes a number
+of useful utility functions to help you along the way.
+
+It includes...
 
 - A standard folder scaffolding and code structure.
 - A canvas element and its context. This is already configured and set up for you.
@@ -17,17 +21,18 @@ javascript game devlopment. It includes...
 
 ## ❌ What this isn't
 
-A framework. You'll still need to understand how the canvas element and web works. Which
-honestly can only be a good thing. You'll be learning the browser and its features rather
-than someone elses interpreation of it.
+A framework. You'll still need to understand how the canvas element and web works.
+Which honestly can only be a good thing. You'll be learning the browser and its
+features rather than someone elses interpreation of it.
 
-## Whats required
+## 🎫 Whats required
 
 - A recent browser (preferably within the last 6 months).
   - _NOTE: This repo uses native ES6 modules and import maps._
-- Some understanding of the latest JavaScript and/or TypeScript development practices.
+- Some understanding of the latest JavaScript and/or TypeScript development
+  practices.
 
-## 🔰 Getting started
+## ⭐ Getting started
 
 Simply clone the repo and open the resulting code in your favourite editor.
 
@@ -40,10 +45,11 @@ pipeline. As there's many toolchain/build tools available, this is out of scope 
 this repo.
 
 This repo also includes npm dependencies and a set of types to help with TypeScript
-development but this is not required or configured by default. Although, I'll be looking
-how I can automatically configure either JS/TS style environments in the future.
+development but this is not required or configured by default. Although, I'll be
+looking how I can automatically configure either JS/TS style environments in the
+future.
 
-## 💥 Example code
+## 👨‍💻 Example code
 
 Included is a small example of how to move an image around the screen using the code
 supplied.
@@ -62,13 +68,13 @@ and drawing routines for each "frame" of the game.
 Note: The code uses importmaps and has the `engine` and `game` folders already aliased
 for easier imports paths.
 
-## 👨‍💻 Example Credits
+## 📃 Example Credits
 
 - Code - Anthony Sherratt
 - Graphics - Originally Robin Levy but remastered by Anthony Sherratt
 - Music - Space_Cat [https://pixabay.com/users/space_cat-7706897/]
 
-## 📰 Next steps
+## 🔖 Next steps
 
 To keep improving what is included here (including this documention!).
 
