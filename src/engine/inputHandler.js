@@ -1,6 +1,6 @@
 import { GamepadThumbstick } from './constants/control.js';
-import { Control } from '../game/constants/controls.js';
-import { controls } from '../game/config/controls.js';
+import { Control } from 'game/constants/controls.js';
+import { controls } from 'game/config/controls.js';
 
 const heldKeys = new Set();
 const pressedKeys = new Set();

@@ -1,6 +1,6 @@
 import { GamepadThumbstick } from './constants/control.js';
 import { Control } from '../game/constants/controls.js';
-import { Camera } from '../engine/Camera.js';
+import { Camera } from './Camera.js';
 
 export type ValueOf<T> = T[keyof T];
 

@@ -28,7 +28,7 @@ features rather than someone elses interpreation of it.
 ## 🎫 Whats required
 
 - A recent browser (preferably within the last 6 months).
-  - _NOTE: This repo uses native ES6 modules and import maps._
+  - _NOTE: This repo uses native ES modules and import maps._
 - Some understanding of the latest JavaScript and/or TypeScript development
   practices.
 
@@ -68,7 +68,7 @@ and drawing routines for each "frame" of the game.
 Note: The code uses importmaps and has the `engine` and `game` folders already aliased
 for easier imports paths.
 
-## 📃 Example Credits
+## 📃 Included example credits
 
 - Code - Anthony Sherratt
 - Graphics - Originally Robin Levy but remastered by Anthony Sherratt
