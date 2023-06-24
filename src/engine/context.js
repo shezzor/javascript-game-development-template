@@ -34,21 +34,22 @@ export function getContext(parentSelector = 'body', width = 256, height = 256) {
  * @param {number[]} dimensions dimensions array of the section
  * @param {number} x x coord position
  * @param {number} y y coord potition
- * @param {number} direction used for horizontal flipping
+ * @param {[number, number]} scale used for horizontal/vertical flipping
  */
 export function drawFrame(
 	context,
 	image,
 	dimensions,
-	x, y, direction = 1,
+	x, y,
+	scale = [1, 1],
 ) {
 	const [sourceX, sourceY, sourceWidth, sourceHeight] = dimensions;
 
-	context.scale(direction, 1);
+	context.scale(scale[0], scale[1]);
 	context.drawImage(
 		image,
 		sourceX, sourceY, sourceWidth, sourceHeight,
-		x * direction, y, sourceWidth, sourceHeight,
+		x * scale[0], y * scale[1], sourceWidth, sourceHeight,
 	);
 	context.setTransform(1, 0, 0, 1, 0, 0);
 }
@@ -60,15 +61,9 @@ export function drawFrame(
  * @param {number[]} frame the frame data array (includes both dimensions and origin point)
  * @param {number} x x coord position
  * @param {number} y y coord potition
- * @param {number} direction used for horizontal flipping
+ * @param {[number, number]} scale used for horizontal/vertical flipping
  */
-export function drawFrameOrigin(
-	context,
-	image,
-	frame,
-	x, y,
-	direction = 1,
-) {
+export function drawFrameOrigin(context, image, frame, x, y, scale = [1, 1]) {
 	const [dimensions, [originX, originY]] = frame;
-	drawFrame(context, image, dimensions, x - originX * direction, y - originY, direction);
+	drawFrame(context, image, dimensions, x - originX * scale[0], y - originY * scale[1], scale);
 }

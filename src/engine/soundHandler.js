@@ -1,21 +1,18 @@
 /**
- * Play a HTMLAudioElement
+ * Play a HTMLAudioElement. This will also reset the playback if it is already currently playing.
  * @param {HTMLAudioElement} sound
  * @param {{ volume: number, loop: boolean }} options
  */
-export function playSound(sound, { volume = 1, loop } = {}) {
+export function playSound(sound, { volume = 1, loop = false } = {}) {
 	sound.volume = volume;
-	if (loop) sound.loop = loop;
+	sound.loop = loop;
 
-	if (!sound.paused && sound.currentTime > 0) {
-		sound.currentTime = 0;
-	} else {
-		sound.play();
-	}
+	if (sound.currentTime > 0) sound.currentTime = 0;
+	if (sound.paused) sound.play();
 }
 
 /**
- * Stop a playing HTMLAudioElement sound
+ * Stop a currently playing HTMLAudioElement, reseting its position to the beginning.
  * @param {HTMLAudioElement} sound
  */
 export function stopSound(sound) {

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.4
+
+- Add support for flipping of images using the scale argument on the `DrawFrame` and `DrawFrameOrigin` context functions.
+- Update soundhandler `playSound` function.
+
 ## 0.0.3
 
 - Added import maps for `engine` and `game` folders.
