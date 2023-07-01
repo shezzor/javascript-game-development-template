@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.5
+
+- Add support for tile based drawing using the `DrawTile` function.
+
 ## 0.0.4
 
 - Add support for flipping of images using the scale argument on the `DrawFrame` and `DrawFrameOrigin` context functions.
