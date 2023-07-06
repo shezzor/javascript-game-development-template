@@ -23,7 +23,7 @@ It includes...
 
 A framework. You'll still need to understand how the canvas element and web works.
 Which honestly can only be a good thing. You'll be learning the browser and its
-features rather than someone elses interpreation of it.
+features rather than someone elses interpretation of it.
 
 ## 🎫 Whats required
 
