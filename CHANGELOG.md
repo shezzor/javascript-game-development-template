@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.6
+
+- Add favicon to keep browsers happy. 😅
+- Slighty update vscode snippets.
+
 ## 0.0.5
 
 - Add support for tile based drawing using the `DrawTile` function.
