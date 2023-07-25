@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.7
+
+- No longer overrides looping when using `playSound`.
+
 ## 0.0.6
 
 - Add favicon to keep browsers happy. 😅
