@@ -7,6 +7,7 @@
 		"incremental": false,
 		"sourceMap": true,
 		"outDir": "./build",
+		"baseUrl": "./src",
 		"paths": {
 			"engine": ["./engine"],
 			"game": ["./game"]

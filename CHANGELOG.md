@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.8
+
+- Add `baseUrl` to `tsconfig.json` to help with resolving import maps.
+- Update to latest npm dependencies.
+
 ## 0.0.7
 
 - No longer overrides looping when using `playSound`.
