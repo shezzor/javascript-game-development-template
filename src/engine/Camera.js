@@ -11,7 +11,7 @@ export class Camera {
 		this.position = { ...this.startPosition };
 	}
 
-	setDimentions(width, height) {
+	setDimensions(width, height) {
 		this.dimensions = { width, height };
 	}
 

@@ -1,7 +1,7 @@
 {
 	"name": "@shezzor/javascript-game-development-template",
 	"type": "module",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "A simple starter template to create JavaScript games",
 	"author": {
 		"name": "Anthony Sherratt",

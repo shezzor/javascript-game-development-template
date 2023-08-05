@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.9
+
+- Fix typo on `setDimensions` function for the `Camera` class 🤦.
+
 ## 0.0.8
 
 - Add `baseUrl` to `tsconfig.json` to help with resolving import maps.
