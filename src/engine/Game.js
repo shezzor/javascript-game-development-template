@@ -33,7 +33,7 @@ export class Game {
 	 */
 	constructor(selector, width, height) {
 		this.context = getContext(selector, width, height);
-		this.camera.setDimentions(width, height);
+		this.camera.setDimensions(width, height);
 	}
 
 	/**

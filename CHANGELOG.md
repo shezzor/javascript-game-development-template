@@ -3,6 +3,7 @@
 ## 0.0.9
 
 - Fix typo on `setDimensions` function for the `Camera` class 🤦.
+- Amend `setDimensions` call in `Game` class.
 
 ## 0.0.8
 
