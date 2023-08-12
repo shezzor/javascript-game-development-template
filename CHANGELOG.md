@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.0.10
+
+- Add `lerp` function helper to `maths` utils.
+- Add JSDocs for `collisions` utils.
+- Update to latest npm dependencies.
+
 ## 0.0.9
 
 - Fix typo on `setDimensions` function for the `Camera` class 🤦.

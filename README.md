@@ -79,6 +79,7 @@ for easier imports paths.
 To keep improving what is included here (including this documention!).
 
 If you wish to see what can be done with this template, why not join me on my YouTube
-channel? As I'll be using as a starting point for all of my projects moving forward.
+channel? As I'll be using this as a starting point for all of my projects moving
+forward.
 
 https://www.youtube.com/@shezzor

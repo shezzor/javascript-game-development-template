@@ -12,14 +12,11 @@ export function radians(pointA, pointB) {
 	return Math.atan2(-dy, -dx);
 }
 
-export function toDegrees(radians) {
-	return radians * 180 / Math.PI;
-}
+export const toDegrees = (radians) => radians * 180 / Math.PI;
 
-export function toRadians(degrees) {
-	return degrees * Math.PI / 180;
-}
+export const toRadians = (degrees) => degrees * Math.PI / 180;
 
-export function clamp(value, min, max) {
-	return Math.min(Math.max(min, value), max);
-}
+export const clamp = (value, min, max) =>
+	Math.min(Math.max(min, value), max);
+
+export const lerp = (min, max, value) => min + value * (max - min);

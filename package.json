@@ -1,7 +1,7 @@
 {
 	"name": "@shezzor/javascript-game-development-template",
 	"type": "module",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "A simple starter template to create JavaScript games",
 	"author": {
 		"name": "Anthony Sherratt",
@@ -14,9 +14,9 @@
 	"license": "MIT",
 	"main": "./src/index.js",
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "6.2.0",
-		"@typescript-eslint/parser": "6.2.0",
-		"eslint": "8.46.0",
+		"@typescript-eslint/eslint-plugin": "6.3.0",
+		"@typescript-eslint/parser": "6.3.0",
+		"eslint": "8.47.0",
 		"typescript": "5.1.6"
 	}
 }
